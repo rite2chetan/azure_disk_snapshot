@@ -1,0 +1,8 @@
+BINDIR := /usr/local/sbin
+
+default:
+	@echo "use make install"
+
+install:
+	install -d $(DESTDIR)$(BINDIR)
+	install -m 0700 -p AzureCloneDisks.sh $(DESTDIR)$(BINDIR)
