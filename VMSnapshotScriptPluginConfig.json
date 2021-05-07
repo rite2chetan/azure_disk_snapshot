@@ -1,0 +1,12 @@
+{
+    "pluginName" : "ScriptRunner",
+    "preScriptLocation" : "@BINDIR@/AzureVMSnapDb2.sh",
+    "postScriptLocation" : "@BINDIR@/AzureVMSnapDb2.sh",
+    "preScriptParams" : ["Pre","[SID]"],
+    "postScriptParams" : ["Post","[SID]"],
+    "preScriptNoOfRetries" : 0,
+    "postScriptNoOfRetries" : 0,
+    "timeoutInSeconds" : 30,
+    "continueBackupOnFailure" : false,
+    "fsFreezeEnabled" : true
+}
